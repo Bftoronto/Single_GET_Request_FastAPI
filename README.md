@@ -10,5 +10,5 @@
 
 This will start the FastAPI app with 10 Docker workers and automatic reloading enabled.
 
-3. Now, you can make a GET request to **http://localhost:8000/api/check** to check the availabillity of the third-party API.
+3. Now, you can make a GET request to **http://localhost:8000/check_request_status** to check the availabillity of the third-party API.
 The response will contain the **can_make_request** field, which will be **True** or **False** depending on the current status.
