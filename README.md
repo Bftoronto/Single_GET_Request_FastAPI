@@ -17,6 +17,6 @@ The response will contain the **can_make_request** field, which will be **True**
 
 **pip install pytest**
 
-6. Run the tests using pytest:
+5. Run the tests using pytest:
 
 **pytest**
