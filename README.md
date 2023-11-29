@@ -2,7 +2,7 @@
 
 1. Install the required dependencies:
 
-**pip install fastapi pydantic sqlalchemy**
+**pip install fastapi pydantic sqlalchemy alembic**
 
 2. Run the FastAPI app using Uvicorn:
 
