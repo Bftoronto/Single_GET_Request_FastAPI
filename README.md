@@ -12,3 +12,9 @@ This will start the FastAPI app with 10 Docker workers and automatic reloading e
 
 3. Now, you can make a GET request to **http://localhost:8000/check_request_status** to check the availabillity of the third-party API.
 The response will contain the **can_make_request** field, which will be **True** or **False** depending on the current status.
+
+4. Install pytest:
+**pip install pytest**
+
+5. Run the tests using pytest:
+**pytest**
