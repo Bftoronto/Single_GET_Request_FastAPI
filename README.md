@@ -14,7 +14,9 @@ This will start the FastAPI app with 10 Docker workers and automatic reloading e
 The response will contain the **can_make_request** field, which will be **True** or **False** depending on the current status.
 
 4. Install pytest:
+
 **pip install pytest**
 
-5. Run the tests using pytest:
+6. Run the tests using pytest:
+
 **pytest**
