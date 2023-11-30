@@ -20,7 +20,7 @@ class RequestCounter(Base):
     __tablename__ = "request_counter"
     id = Column(Integer, primary_key=True, index=True)
     count = Column(Integer, default=0)
-    updated_at = Column(DateTime, default=datetime.now)  # Add the missing column
+    updated_at = Column(DateTime, default=datetime.now) 
 
 # Create database tables
 Base.metadata.create_all(bind=engine)
